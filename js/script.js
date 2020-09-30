@@ -1,3 +1,4 @@
+
 menu.onclick = function BurgerFunction() {
   let burger = document.getElementById("myTopnav");
   if(burger.className === "topnav") {
@@ -6,3 +7,10 @@ menu.onclick = function BurgerFunction() {
     burger.className = "topnav";
   }
 };
+
+
+/* тоже самое на jquery 
+$("#menu").click(function(){
+  $("#myTopnav").toggleClass("responsive");
+});
+*/
